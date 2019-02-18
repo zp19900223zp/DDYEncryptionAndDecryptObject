@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		471DC75C05FEB3B3A2C54A1F /* libPods-DDYEncryptionAndDecryptObject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F393C8BB53DC8E0D0E49675A /* libPods-DDYEncryptionAndDecryptObject.a */; };
+		D14846FA221A4FEC00145521 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D14846F9221A4FEC00145521 /* AppDelegate.m */; };
+		D14846FD221A4FEC00145521 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14846FC221A4FEC00145521 /* ViewController.m */; };
+		D1484700221A4FEC00145521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14846FE221A4FEC00145521 /* Main.storyboard */; };
+		D1484702221A4FEC00145521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1484701221A4FEC00145521 /* Assets.xcassets */; };
+		D1484705221A4FEC00145521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1484703221A4FEC00145521 /* LaunchScreen.storyboard */; };
+		D1484708221A4FEC00145521 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1484707221A4FEC00145521 /* main.m */; };
+		D1484715221A4FFE00145521 /* DDYAes.m in Sources */ = {isa = PBXBuildFile; fileRef = D1484710221A4FFE00145521 /* DDYAes.m */; };
+		D1484716221A4FFE00145521 /* DDYEncryptionAndDecryptObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D1484712221A4FFE00145521 /* DDYEncryptionAndDecryptObject.m */; };
+		D1484717221A4FFE00145521 /* DDYRsa.m in Sources */ = {isa = PBXBuildFile; fileRef = D1484714221A4FFE00145521 /* DDYRsa.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186F799FFF6CE3D9C0497BFE /* Pods-DDYEncryptionAndDecryptObject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDYEncryptionAndDecryptObject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDYEncryptionAndDecryptObject/Pods-DDYEncryptionAndDecryptObject.release.xcconfig"; sourceTree = "<group>"; };
+		A2B731B9E61DA6B02D2BF4D5 /* Pods-DDYEncryptionAndDecryptObject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDYEncryptionAndDecryptObject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDYEncryptionAndDecryptObject/Pods-DDYEncryptionAndDecryptObject.debug.xcconfig"; sourceTree = "<group>"; };
+		D14846F5221A4FEC00145521 /* DDYEncryptionAndDecryptObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDYEncryptionAndDecryptObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14846F8221A4FEC00145521 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D14846F9221A4FEC00145521 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D14846FB221A4FEC00145521 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D14846FC221A4FEC00145521 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D14846FF221A4FEC00145521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1484701221A4FEC00145521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1484704221A4FEC00145521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1484706221A4FEC00145521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1484707221A4FEC00145521 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D148470F221A4FFE00145521 /* DDYAes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDYAes.h; sourceTree = "<group>"; };
+		D1484710221A4FFE00145521 /* DDYAes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDYAes.m; sourceTree = "<group>"; };
+		D1484711221A4FFE00145521 /* DDYEncryptionAndDecryptObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDYEncryptionAndDecryptObject.h; sourceTree = "<group>"; };
+		D1484712221A4FFE00145521 /* DDYEncryptionAndDecryptObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDYEncryptionAndDecryptObject.m; sourceTree = "<group>"; };
+		D1484713221A4FFE00145521 /* DDYRsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDYRsa.h; sourceTree = "<group>"; };
+		D1484714221A4FFE00145521 /* DDYRsa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDYRsa.m; sourceTree = "<group>"; };
+		F393C8BB53DC8E0D0E49675A /* libPods-DDYEncryptionAndDecryptObject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDYEncryptionAndDecryptObject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D14846F2221A4FEC00145521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471DC75C05FEB3B3A2C54A1F /* libPods-DDYEncryptionAndDecryptObject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A07272473B03EF8A39D1FC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F393C8BB53DC8E0D0E49675A /* libPods-DDYEncryptionAndDecryptObject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C228A3998643760AF71AA5F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2B731B9E61DA6B02D2BF4D5 /* Pods-DDYEncryptionAndDecryptObject.debug.xcconfig */,
+				186F799FFF6CE3D9C0497BFE /* Pods-DDYEncryptionAndDecryptObject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D14846EC221A4FEC00145521 = {
+			isa = PBXGroup;
+			children = (
+				D14846F7221A4FEC00145521 /* DDYEncryptionAndDecryptObject */,
+				D14846F6221A4FEC00145521 /* Products */,
+				C228A3998643760AF71AA5F9 /* Pods */,
+				9A07272473B03EF8A39D1FC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D14846F6221A4FEC00145521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D14846F5221A4FEC00145521 /* DDYEncryptionAndDecryptObject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D14846F7221A4FEC00145521 /* DDYEncryptionAndDecryptObject */ = {
+			isa = PBXGroup;
+			children = (
+				D148470E221A4FFE00145521 /* Encrypt */,
+				D14846F8221A4FEC00145521 /* AppDelegate.h */,
+				D14846F9221A4FEC00145521 /* AppDelegate.m */,
+				D14846FB221A4FEC00145521 /* ViewController.h */,
+				D14846FC221A4FEC00145521 /* ViewController.m */,
+				D14846FE221A4FEC00145521 /* Main.storyboard */,
+				D1484701221A4FEC00145521 /* Assets.xcassets */,
+				D1484703221A4FEC00145521 /* LaunchScreen.storyboard */,
+				D1484706221A4FEC00145521 /* Info.plist */,
+				D1484707221A4FEC00145521 /* main.m */,
+			);
+			path = DDYEncryptionAndDecryptObject;
+			sourceTree = "<group>";
+		};
+		D148470E221A4FFE00145521 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				D148470F221A4FFE00145521 /* DDYAes.h */,
+				D1484710221A4FFE00145521 /* DDYAes.m */,
+				D1484711221A4FFE00145521 /* DDYEncryptionAndDecryptObject.h */,
+				D1484712221A4FFE00145521 /* DDYEncryptionAndDecryptObject.m */,
+				D1484713221A4FFE00145521 /* DDYRsa.h */,
+				D1484714221A4FFE00145521 /* DDYRsa.m */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D14846F4221A4FEC00145521 /* DDYEncryptionAndDecryptObject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D148470B221A4FEC00145521 /* Build configuration list for PBXNativeTarget "DDYEncryptionAndDecryptObject" */;
+			buildPhases = (
+				8DE9D7568A8AAD4B3EBBD99B /* [CP] Check Pods Manifest.lock */,
+				D14846F1221A4FEC00145521 /* Sources */,
+				D14846F2221A4FEC00145521 /* Frameworks */,
+				D14846F3221A4FEC00145521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDYEncryptionAndDecryptObject;
+			productName = DDYEncryptionAndDecryptObject;
+			productReference = D14846F5221A4FEC00145521 /* DDYEncryptionAndDecryptObject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D14846ED221A4FEC00145521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Config;
+				TargetAttributes = {
+					D14846F4221A4FEC00145521 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D14846F0221A4FEC00145521 /* Build configuration list for PBXProject "DDYEncryptionAndDecryptObject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D14846EC221A4FEC00145521;
+			productRefGroup = D14846F6221A4FEC00145521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D14846F4221A4FEC00145521 /* DDYEncryptionAndDecryptObject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D14846F3221A4FEC00145521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1484705221A4FEC00145521 /* LaunchScreen.storyboard in Resources */,
+				D1484702221A4FEC00145521 /* Assets.xcassets in Resources */,
+				D1484700221A4FEC00145521 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DE9D7568A8AAD4B3EBBD99B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDYEncryptionAndDecryptObject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D14846F1221A4FEC00145521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14846FD221A4FEC00145521 /* ViewController.m in Sources */,
+				D1484715221A4FFE00145521 /* DDYAes.m in Sources */,
+				D1484717221A4FFE00145521 /* DDYRsa.m in Sources */,
+				D1484708221A4FEC00145521 /* main.m in Sources */,
+				D1484716221A4FFE00145521 /* DDYEncryptionAndDecryptObject.m in Sources */,
+				D14846FA221A4FEC00145521 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D14846FE221A4FEC00145521 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14846FF221A4FEC00145521 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1484703221A4FEC00145521 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1484704221A4FEC00145521 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1484709221A4FEC00145521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D148470A221A4FEC00145521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D148470C221A4FEC00145521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B731B9E61DA6B02D2BF4D5 /* Pods-DDYEncryptionAndDecryptObject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXS26X9JWE;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DDYEncryptionAndDecryptObject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-350208751-qq.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D148470D221A4FEC00145521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186F799FFF6CE3D9C0497BFE /* Pods-DDYEncryptionAndDecryptObject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXS26X9JWE;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DDYEncryptionAndDecryptObject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-350208751-qq.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D14846F0221A4FEC00145521 /* Build configuration list for PBXProject "DDYEncryptionAndDecryptObject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1484709221A4FEC00145521 /* Debug */,
+				D148470A221A4FEC00145521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D148470B221A4FEC00145521 /* Build configuration list for PBXNativeTarget "DDYEncryptionAndDecryptObject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D148470C221A4FEC00145521 /* Debug */,
+				D148470D221A4FEC00145521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D14846ED221A4FEC00145521 /* Project object */;
+}
